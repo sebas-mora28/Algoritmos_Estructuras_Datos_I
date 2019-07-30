@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.ColorAdjust?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="772.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Button fx:id="fileChooser" layoutX="358.0" layoutY="47.0" mnemonicParsing="false" onAction="#Button_Action" text="Open" />
-      <ScrollPane layoutY="104.0" prefHeight="450.0" prefWidth="772.0">
+      <ScrollPane layoutY="32.0" prefHeight="522.0" prefWidth="772.0">
          <content>
-            <TableView fx:id="Tabla" editable="true" prefHeight="462.0" prefWidth="785.0" />
+            <TableView fx:id="Tabla" editable="true" prefHeight="520.0" prefWidth="768.0" />
          </content>
       </ScrollPane>
+      <MenuBar prefHeight="30.0" prefWidth="772.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="Open" mnemonicParsing="false" onAction="#Button_Action" text="New" />
+            </items>
+          </Menu>
+          <Menu fx:id="exit_" mnemonicParsing="false" text="Options">
+               <items>
+                  <MenuItem fx:id="about" mnemonicParsing="false" onAction="#aboutActionButton" text="About" />
+                  <MenuItem fx:id="exit" mnemonicParsing="false" onAction="#exitActionButton" text="Exit" />
+               </items></Menu>
+        </menus>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </MenuBar>
    </children>
 </AnchorPane>
