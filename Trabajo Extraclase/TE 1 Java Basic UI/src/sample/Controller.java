@@ -60,25 +60,21 @@ public class Controller implements Initializable {
         if (selectedFile != null) { //En caso de cerrar el buscador sin seleccionar ningún archivo
             Scanner scanner;
             try {
-
                 scanner = new Scanner(selectedFile);
                 if (scanner.hasNext()) { //Verifica si el archivo que se seleccionó se encuentra vacío
                     setTable(Tabla, selectedFile);
 
                 }else{
-                    System.out.print("Error");
-                    Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                    alert.setHeaderText("Ocurrió un problema");
-                    alert.setContentText("El documento que seleccionó esta vacío");
-                    alert.showAndWait();
-                    return;
+                    throw new FileNotFoundException();
 
                 }
             } catch (FileNotFoundException e) {
-                e.printStackTrace();
+                System.out.print("Error");
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.setHeaderText("Ocurrió un problema");
+                alert.setContentText("El documento que seleccionó esta vacío");
+                alert.showAndWait();
 
-            } catch (IOException e) {
-                e.printStackTrace();
             }
 
         }
@@ -97,22 +93,7 @@ public class Controller implements Initializable {
             for(int i =0; i<titles.length; i++){
                 Table.getColumns().add(createColumn(i, titles[i]));
             }
-
-            String data;
-            while ((data = file_readed.readLine()) != null){
-                String[] dataValues  = data.split(",");
-
-                for(int index= Table.getColumns().size() ; index < dataValues.length; index++){
-                    System.out.println("Entra");
-                    Tabla.getColumns().add(createColumn(index, ""));
-                }
-                ObservableList<StringProperty> info = FXCollections.observableArrayList();
-                for(String value: dataValues){
-                    info.add(new SimpleStringProperty(value));
-                }
-                Tabla.getItems().add(info);
-            }
-            System.out.println("Sale");
+            PopulateTable(Table, file_readed);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -121,19 +102,33 @@ public class Controller implements Initializable {
 
     }
 
+    private void PopulateTable(TableView<ObservableList<StringProperty>> Table, BufferedReader file_readed) throws IOException {
+        String data;
+        while ((data = file_readed.readLine()) != null){
+            String[] dataValues  = data.split(",");
+
+            for(int index= Table.getColumns().size() ; index < dataValues.length; index++){
+                System.out.println("Entra");
+                Tabla.getColumns().add(createColumn(index, ""));
+            }
+            ObservableList<StringProperty> info = FXCollections.observableArrayList();
+            for(String value: dataValues){
+                info.add(new SimpleStringProperty(value));
+            }
+            Tabla.getItems().add(info);
+        }
+    }
+
     //Se crean el número de columnas dependiendo del archivo que se seleccionó
    private TableColumn<ObservableList<StringProperty>, String> createColumn(int index, String columntitle){
         TableColumn<ObservableList<StringProperty>, String> column = new TableColumn<>();
 
         String title;
-        if(columntitle == null || columntitle.trim().length()==0){
+         if(columntitle == null || columntitle.trim().length()==0){
             title = "column" + (index +1);
         }else{ title = columntitle; }
-
         column.setText(title);
-
-       column.setText(columntitle);
-
+        column.setText(columntitle);
         column.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<ObservableList<StringProperty>, String>, ObservableValue<String>>() {
             @Override
             public ObservableValue<String> call(TableColumn.CellDataFeatures<ObservableList<StringProperty>, String> cellDataFeatures) {
