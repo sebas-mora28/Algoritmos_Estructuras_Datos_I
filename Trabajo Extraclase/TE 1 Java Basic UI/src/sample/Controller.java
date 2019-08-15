@@ -31,6 +31,7 @@ import java.io.BufferedReader;
 
 import java.io.*;
 
+import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
@@ -55,25 +56,26 @@ public class Controller implements Initializable {
         fileChooser.setInitialDirectory(new File("C:\\Users"));
         //fileChooser.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("CSV files", "*.CSV"));
         File selectedFile = fileChooser.showOpenDialog(null);
-        String name = selectedFile.getName();
+        System.out.println(selectedFile);
 
         try {
-
-            if (!name.substring(name.length() - 3).equals("csv")) {
-                throw new InvalidTypeException();
-            }
-            if (selectedFile != null) { //En caso de cerrar el buscador sin seleccionar ningún archivo
-                Scanner scanner;
-                scanner = new Scanner(selectedFile);
-                if (scanner.hasNext()) { //Verifica si el archivo que se seleccionó se encuentra vacío
-                    setTable(Tabla, selectedFile);
+            if (selectedFile != null) { ////En caso de cerrar el buscador sin seleccionar ningún archivo
+                String name = selectedFile.getName();
+                if (name.substring(name.length() - 3).equals("csv")) { //Verifica el formato del archivo
+                    Scanner scanner;
+                    scanner = new Scanner(selectedFile);
+                    if (scanner.hasNext()) { //Verifica si el archivo que se seleccionó se encuentra vacío
+                        setTable(Tabla, selectedFile);
+                    } else {
+                        throw new  IllegalArgumentException();
+                    }
                 } else {
                     throw new FileNotFoundException();
                 }
-            } else {
+            }else{
                 throw new Exception();
             }
-        }catch (InvalidTypeException e){
+        }catch (IllegalArgumentException e){
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setHeaderText("Archivo incompatible");
             alert.setContentText("El archivo que seleccionó es incompatible con el programa");
