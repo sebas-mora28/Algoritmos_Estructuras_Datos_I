@@ -1,127 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef01b31-4e54-4dc6-968b-6c9c78b5a744" name="Default Changelist" comment="Ejemplos y prácticas">
-      <change afterPath="$PROJECT_DIR$/Java_examples/ListasEnlazadas/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/ListasEnlazadas/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/ListasEnlazadas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/ListasEnlazadas/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/ListasEnlazadas/ListasEnlazadas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/ListasEnlazadas/Syncfolders_Database_db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/ListasEnlazadas/out/production/ListasEnlazadas/ListasEnlazadas.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/ListasEnlazadas/out/production/ListasEnlazadas/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/ListasEnlazadas/out/production/ListasEnlazadas/Nodo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/ListasEnlazadas/src/ListasEnlazadas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/ListasEnlazadas/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/ListasEnlazadas/src/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/Patrones_de_Diseño.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/Builder/Account_Bank$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/Builder/Account_Bank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/Builder/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/Factory/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/Factory/Cars_factory$CarType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/Factory/Cars_factory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/Factory/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/Factory/Mazda.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/Factory/Nissan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/Factory/Toyota.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/META-INF/Patrones_de_Diseño.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/Singleton/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/out/production/Patrones_de_Diseño/Singleton/Persona.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/src/Builder/Account_Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/src/Builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/src/Factory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/src/Factory/Cars_factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/src/Factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/src/Factory/Mazda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/src/Factory/Nissan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/src/Factory/Toyota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/src/Singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Patrones_de_Diseño/src/Singleton/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/.idea/libraries/json_simple_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/Practicas_Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/Syncfolders_Database_db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/META-INF/Practicas_Java.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Practicas/.idea/Practicas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Practicas/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Practicas/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Practicas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Practicas/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Proyecto_I/.idea/Proyecto_I.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Proyecto_I/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Proyecto_I/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Proyecto_I/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Proyecto_I/images/coca-cola-blanco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Proyecto_I/images/coca-cola.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Proyecto_I/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/out/production/Practicas_Java/Proyecto_I/images/logo-coca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Cajero_practica/Main/Consultar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Cajero_practica/Main/Depositar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Cajero_practica/Main/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Cajero_practica/Main/Retirar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Cajero_practica/codigo_base/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Herencia1/NumeroUno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Herencia2/NumeroDos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Herencia2/Prueba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/JSON/JSON_files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Matriz/Matrices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Matriz/Multiplicación_Matrices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/POOExamples/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/POOExamples/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Poliformismo1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Poliformismo2/Clase_Hija_resta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Poliformismo2/Clase_Hija_suma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Poliformismo2/Clase_Padre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/.idea/Practicas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/ComboBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/Ejemplo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/I_Proyecto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/Practica_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/Practica_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/Prueba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/Recursividad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Practicas_1/Suma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Proyecto_I/.idea/Proyecto_I.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Proyecto_I/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Proyecto_I/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Proyecto_I/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Proyecto_I/Bienvenida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Proyecto_I/Terminos_Condiciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Proyecto_I/images/coca-cola-blanco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Proyecto_I/images/coca-cola.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Proyecto_I/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Proyecto_I/images/logo-coca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Proyecto_I/principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Prácticas/Practica_1/Información.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Prácticas/Practica_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Prácticas/Practica_1/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Prácticas/Practica_2/Círculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Prácticas/Practica_2/Dimensiones_figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Prácticas/Practica_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Prácticas/Practica_2/Pedir_datos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Prácticas/Practica_2/Rectángulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Prácticas/Practica_2/Triángulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Theads/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_examples/Practicas Java/src/Theads/Prueba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListasEnlazadas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4ef01b31-4e54-4dc6-968b-6c9c78b5a744" name="Default Changelist" comment="Ejemplos y prácticas" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,29 +13,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cr.ac.tec.oop/cr.ac.tec.oop.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cr.ac.tec.oop/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java_examples/ListasEnlazadas/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/JavaEjemplos/Patrones_de_Diseño/src/Factory/Cars_factory.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -183,49 +43,52 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Algoritmos_Estructuras_Datos_I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos_Estructuras_Datos_I" type="462c0819:PsiDirectoryNode" />
+              <item name="Datos_I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Datos_I" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Algoritmos_Estructuras_Datos_I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos_Estructuras_Datos_I" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Datos_I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Datos_I" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaEjemplos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Algoritmos_Estructuras_Datos_I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos_Estructuras_Datos_I" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="ListasEnlazadas" type="462c0819:PsiDirectoryNode" />
+              <item name="Datos_I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Datos_I" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaEjemplos" type="462c0819:PsiDirectoryNode" />
+              <item name="Patrones_de_Diseño" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Algoritmos_Estructuras_Datos_I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos_Estructuras_Datos_I" type="462c0819:PsiDirectoryNode" />
-              <item name="Java_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="ListasEnlazadas" type="462c0819:PsiDirectoryNode" />
+              <item name="Datos_I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Datos_I" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaEjemplos" type="462c0819:PsiDirectoryNode" />
+              <item name="Patrones_de_Diseño" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Algoritmos_Estructuras_Datos_I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmos_Estructuras_Datos_I" type="462c0819:PsiDirectoryNode" />
-              <item name="ListasEnlazadas" type="462c0819:PsiDirectoryNode" />
+              <item name="Datos_I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Datos_I" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaEjemplos" type="462c0819:PsiDirectoryNode" />
+              <item name="Patrones_de_Diseño" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaEjemplos/Patrones_de_Diseño" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -268,16 +131,15 @@
     <option name="totallyTimeSpent" value="1365000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="980" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27001068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -290,6 +152,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -329,9 +192,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Trabajo Extraclase/TE 1 Java Basic UI/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Java_examples/ListasEnlazadas/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/cr.ac.tec.oop/cr.ac.tec.oop.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -344,12 +208,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_examples/ListasEnlazadas/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/JavaEjemplos/Patrones_de_Diseño/src/Factory/Cars_factory.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
