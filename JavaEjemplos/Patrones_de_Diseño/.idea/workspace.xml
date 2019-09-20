@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a018f044-8fc6-4ee7-9311-d86ba2cfbbef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../LIstas_Enlazadas/src/Listas_Enlazada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LIstas_Enlazadas/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LIstas_Enlazadas/src/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Proyecto-1-Datos-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ListasEnlazadas/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ALgoritmosDeOrnamiento/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ALgoritmosDeOrnamiento/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ALgoritmosDeOrnamiento/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LIstas_Enlazadas/src/ListasEnlazadasDobles/ListaEnlazadaDoble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LIstas_Enlazadas/src/ListasEnlazadasDobles/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LIstas_Enlazadas/src/ListasEnlazadasDobles/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LIstas_Enlazadas/src/Listas_Enlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LIstas_Enlazadas/src/ListasEnlazadasSimples/Listas_Enlazada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LIstas_Enlazadas/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LIstas_Enlazadas/src/ListasEnlazadasSimples/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LIstas_Enlazadas/src/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LIstas_Enlazadas/src/ListasEnlazadasSimples/Nodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patrones_de_Diseño.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Patrones_de_Diseño.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto-1-Datos-1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto-1-Datos-1/Proyecto-1/src/Logica/Nodo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo Extraclase/TE 1 Java Basic UI/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo Extraclase/TE 1 Java Basic UI/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo Extraclase/TE 1 Java Basic UI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo Extraclase/TE 1 Java Basic UI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo Extraclase/TE 1 Java Basic UI/TE 1 Java Basic UI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo Extraclase/TE 1 Java Basic UI/TE 1 Java Basic UI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo Extraclase/TE 1 Java Basic UI/out/production/TE 1 Java Basic UI/META-INF/TE 1 Java Basic UI.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,18 +38,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="315" />
-    <option name="width" value="1615" />
-    <option name="height" value="880" />
-  </component>
   <component name="ProjectId" id="1Pwh5YqfSQH7UkNrlz8M4Y7BS7d" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />

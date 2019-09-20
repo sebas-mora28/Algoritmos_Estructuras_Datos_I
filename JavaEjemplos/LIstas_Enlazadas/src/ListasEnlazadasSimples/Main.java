@@ -1,4 +1,4 @@
-
+package ListasEnlazadasSimples;
 
 public class Main {
 
@@ -8,6 +8,7 @@ public class Main {
 
        lista.addNodo("Sebastian");
        lista.addNodo("andres");
+       lista.addNodo("bastian");
 
 
     }

@@ -1,4 +1,4 @@
-
+package ListasEnlazadasSimples;
 
 public class Nodo {
     private Nodo siguiente;
@@ -15,7 +15,6 @@ public class Nodo {
 
         siguiente = nodo;
     }
-
     public Object verDato(){
 
         return object;

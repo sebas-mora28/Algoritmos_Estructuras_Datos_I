@@ -1,3 +1,5 @@
+package ListasEnlazadasSimples;
+
 public class Listas_Enlazada {
 
     private Nodo head;
@@ -29,5 +31,13 @@ public class Listas_Enlazada {
             head = newNodo;
         }
 
+    }
+
+    public void showdata(){
+        Nodo nodo = head;
+        while(nodo!=null){
+            System.out.println(nodo.verDato());
+            nodo = head.verSiguiente();
+        }
     }
 }
