@@ -53,9 +53,10 @@ public class Controller implements Initializable {
     public void Button_Action(ActionEvent event) {
         //Se crea el buscador de archivos por del objeto FileChooser
         FileChooser fileChooser = new FileChooser();
-        fileChooser.setInitialDirectory(new File("C:\\Users"));
-        //fileChooser.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("CSV files", "*.CSV"));
+        fileChooser.setInitialDirectory(new File("/home"));
+        fileChooser.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("CSV files", "*.CSV"));
         File selectedFile = fileChooser.showOpenDialog(null);
+
         System.out.println(selectedFile);
 
         try {
@@ -128,7 +129,7 @@ public class Controller implements Initializable {
             for(int index= Table.getColumns().size() ; index < dataValues.length; index++){
                 Tabla.getColumns().add(createColumn(index, ""));
             }
-            ObservableList<StringProperty> info = FXCollections.observableArrayList();
+            ObservableList<StringProperty> info= FXCollections.observableArrayList();
             for(String value: dataValues){
                 info.add(new SimpleStringProperty(value));
             }
@@ -147,13 +148,13 @@ public class Controller implements Initializable {
         }else{ title = columntitle; }
         column.setText(title);
         column.setText(columntitle);
-        column.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<ObservableList<StringProperty>, String>, ObservableValue<String>>() {
+        column.setCellValueFactory(new Callback<>() {
             @Override
             public ObservableValue<String> call(TableColumn.CellDataFeatures<ObservableList<StringProperty>, String> cellDataFeatures) {
                 ObservableList<StringProperty> values = cellDataFeatures.getValue();
-                if(index >= values.size()){
+                if (index >= values.size()) {
                     return new SimpleStringProperty("");
-                }else{
+                } else {
                     return cellDataFeatures.getValue().get(index);
                 }
             }
